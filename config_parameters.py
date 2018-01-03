@@ -1,13 +1,11 @@
 THRESHOLD = 2
 
-DEC_VOCAB = 4762
-ENC_VOCAB = 4806
-
 BUCKETS = [(16, 19)]
 PAD_ID = 0
 
 CPT_PATH = 'checkpoints'
 OUTPUT_FILE = 'output_conversation_mbt.txt'
+PROCESSED_PATH = 'data/'
 
 NUM_SAMPLES = 512
 
@@ -23,3 +21,5 @@ BATCH_SIZE = 64
 
 LR = 0.5
 MAX_GRAD_NORM = 5.0
+DEC_VOCAB = 4803
+ENC_VOCAB = 4861

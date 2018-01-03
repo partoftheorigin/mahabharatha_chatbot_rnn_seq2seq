@@ -187,8 +187,8 @@ def _construct_response(output_logits, inv_dec_vocab):
 
 # Function for Interactive Chat
 def chat():
-    _, enc_vocab = prep_data.load_vocab(os.path.join(config_parameters.PROCESSED_PATH, 'vocab.enc'))
-    inv_dec_vocab, _ = prep_data.load_vocab(os.path.join(config_parameters.PROCESSED_PATH, 'vocab.dec'))
+    _, enc_vocab = prep_data.load_vocab(os.path.join(config_parameters.PROCESSED_PATH, 'vocab.encoder'))
+    inv_dec_vocab, _ = prep_data.load_vocab(os.path.join(config_parameters.PROCESSED_PATH, 'vocab.decoder'))
 
     model = BotModel(True, batch_size=1)
     model.build_graph()
@@ -202,7 +202,7 @@ def chat():
         # Decode from standard input.
         print('After Output--------------------------------')
         max_length = config_parameters.BUCKETS[-1][0]
-        print('GOT-BOT: Message Limit:', max_length)
+        print('MBT-BOT: Message Limit:', max_length)
         while True:
             line = _get_user_input()
             if len(line) > 0 and line[-1] == '\n':

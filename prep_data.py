@@ -204,8 +204,8 @@ def make_dir(path):
         pass
 
 
-# if __name__ == '__main__':
-    # pre_process_subtitles('dataset/mahabharat-subtitles')
-    # create_dataset('data/clean_subs.txt')
-    # create_conversation_vocab('data')
-    # map_vocab('data')
+if __name__ == '__main__':
+    pre_process_subtitles('dataset/mahabharat-subtitles')
+    create_dataset('data/clean_subs.txt')
+    create_conversation_vocab('data')
+    map_vocab('data')
