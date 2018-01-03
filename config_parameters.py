@@ -1,0 +1,25 @@
+THRESHOLD = 2
+
+DEC_VOCAB = 4762
+ENC_VOCAB = 4806
+
+BUCKETS = [(16, 19)]
+PAD_ID = 0
+
+CPT_PATH = 'checkpoints'
+OUTPUT_FILE = 'output_conversation_mbt.txt'
+
+NUM_SAMPLES = 512
+
+UNK_ID = 1
+START_ID = 2
+EOS_ID = 3
+
+TESTSET_SIZE = 25000
+
+NUM_LAYERS = 3
+HIDDEN_SIZE = 256
+BATCH_SIZE = 64
+
+LR = 0.5
+MAX_GRAD_NORM = 5.0
