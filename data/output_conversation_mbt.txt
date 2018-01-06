@@ -1,0 +1,19 @@
+INPUT : who will kill arjunawho will kill arjuna
+RESPONSE : I be subjected deems you stand Vrushali
+INPUT : I will be the king
+RESPONSE : For him <unk> , the Pandavas
+INPUT : I am the price of hastinapur
+RESPONSE : to the <unk> being more <unk> times , Prince .
+INPUT : I have 100 sons
+RESPONSE : has <unk> belongs in me .
+INPUT : sanjay what is happening
+RESPONSE : How I me <unk> , uncle ?
+INPUT : who is winning
+RESPONSE : the game of you <unk> safeguard lady itself
+INPUT : who is coming in the battle field
+RESPONSE : the very King of you crime , A person of one .
+INPUT : pandavas
+RESPONSE : Forgive him , your 100 society of Hastinapur
+INPUT : 100 society of Hastinapur
+RESPONSE : <unk> to Princess is Dhritarashtra
+++++++++++++++++++++++++++++++++++++++
